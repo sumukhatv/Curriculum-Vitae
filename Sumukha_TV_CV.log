@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.3.17)  2 JAN 2015 00:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.3.17)  3 JAN 2015 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,15 +371,15 @@ LaTeX Font Info:    ... okay on input line 18.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(72.26999pt, 474.64911pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 722.18808pt, 72.26999pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
+* \textwidth=474.64911pt
+* \textheight=722.18808pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \topmargin=-58.68121pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -404,30 +404,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
 
-Overfull \hbox (11.2213pt too wide) in paragraph at lines 25--37
+Overfull \hbox (4.18413pt too wide) in paragraph at lines 25--39
 [][] 
  []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 40.
 
 [1
 
 {c:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Sumukha_TV_CV.aux) ) 
+(./Sumukha_TV_CV.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1623 strings out of 493315
- 21266 string characters out of 6141455
- 83676 words of memory out of 5000000
- 5092 multiletter control sequences out of 15000+600000
- 4045 words of font info for 16 fonts, out of 8000000 for 9000
+ 1649 strings out of 493315
+ 21561 string characters out of 6141455
+ 87686 words of memory out of 5000000
+ 5109 multiletter control sequences out of 15000+600000
+ 7702 words of font info for 28 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 23i,14n,23p,216b,151s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Sumukha_TV_CV.pdf (1 page, 34378 bytes).
+ 23i,14n,23p,220b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Sumukha_TV_CV.pdf (1 page, 57954 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
