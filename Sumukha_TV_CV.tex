@@ -1,12 +1,15 @@
 \documentclass[14pt]{article}
 %\usepackage[margin = 0.8in]{geometry}
 \usepackage[a4paper, left=1in, right=0.7in, top=0.7in, bottom=1in]{geometry}
-%\usepackage{fontspec}
+%\usepackage{fontspec} must use Xelatex compiler
 %\usepackage[osf]{mathpazo}
+%\usepackage{fancyheadings}
 \usepackage[normalem]{ulem}
 \usepackage{enumerate}
 \usepackage{verbatim}
-\usepackage[document]{ragged2e}
+%\setmainfont[Numbers=OldStyle]{TeX Gyre Pagella} must use Xelatex compiler
+\usepackage{tabularx}
+%\usepackage[document]{ragged2e}
 %\pagestyle{fancy}
 \pagenumbering{arabic}
 \oddsidemargin 0.0in 
@@ -22,8 +25,9 @@
 %\cfoot{}
 %\rfoot{\thepage}
 \title{Curriculum Vitae}
-\begin{tabular}{l r}
-\Huge{\textbf{Sumukha Tumkur Vani} \hspace{0 mm}} & 
+
+\begin{tabularx}{\textwidth}{l r}
+\Huge{\textbf{Sumukha Tumkur Vani}} & 
 \large
 \begin{tabular}{r}
 371, 10$^{th}$ cross\\
@@ -34,51 +38,66 @@ Phone: +91 80 2349 8309\\
 Mobile: +91 95 91 636530\\
 E-mail: sumukhatv@live.com
 \end{tabular}
-\end{tabular}
+\end{tabularx}
 \rule{\textwidth}{0.4pt}
 
 \subsection* {\scshape\LARGE\uline {Education}}
 \large
 
 \begin{tabular}{r l}
-2010 - 2014 & \textbf{Bachelor of Engineering} \\
-		      & Major: Computer Science and Engineering\\ 
-			& Bangalore University, India \\
-			& Graduated with 83.8\% [GPA: 3.67/4.0]			    
+\emph{2010 - 2014} & \textbf{Bachelor of Engineering} \\
+		                  & Major: Computer Science and Engineering\\ 
+			            & Bangalore University, India \\
+			            & Graduated with 83.8\% [GPA: 3.67/4.0]			    
 \\ \\
 
-2008 - 2010 & \textbf{Pre-University Course} \\ 
-		      & MES Pre-University College, Bangalore, India \\
-			& 2$^{nd}$PUC 93\%		    
+\emph{2008 - 2010} & \textbf{Pre-University Course} \\ 
+		                  & MES Pre-University College, Bangalore, India \\
+			            & 2$^{nd}$PUC 93\%		    
 \\ \\
 
-2005 - 2008  & \textbf{High School} \\ 
-			& VVS Sardar Patel High School, Bangalore, India \\
-			& SSLC 95.36\%		    
+\emph{2005 - 2008} & \textbf{High School} \\ 
+			            & VVS Sardar Patel High School, Bangalore, India \\
+				      & SSLC 95.36\%		    
 \end{tabular}
 
 
 \subsection* {\scshape\LARGE\uline {Professional Experience}}
 \large
+\begin{tabularx}{\textwidth}{r X}
+\emph{2014 - Present} & \textbf{Software Developer}, \textit{Oracle India Pvt Ltd}, Bangalore, India \\
+		                      & Oracle Virtual Networking\\ 
+			                & $\bullet$ Involved in developing of Infiniband Switches\\
+			                & $\bullet$ Involved in buiding device drivers and system softwares for  Solaris OS\\
+			                & $\bullet$ Experience of coding in the SPARC environment	    
+\\ \\
+
+\emph{2013 - 2014} & \textbf{Software Developer Intern}, \textit{Streamoid Technologies}, Bangalore, India \\ 
+			            & $\bullet$ Worked on Natural Language Processing tools \\
+		 	            & $\bullet$ Designed and developed a search engine using Apache Solr \\
+   			            & $\bullet$ Implemented and analysed product recommendation systems \\
+			            & $\bullet$ Built a performance and load testing system using Apache JMeter
+\\ \\
+
+\emph{2012 - 2013} & \textbf{Software Developer Intern}, \textit{Teritree Technologies}, Bangalore, India \\ 
+			            & $\bullet$ Developed a database web application on the Amazon EC2 \\
+			            & $\bullet$ Developed an email application using the Amazon SES\\
+			            & $\bullet$ Built an extension for the Google Chrome web browser	    
+\end{tabularx}
+
+\subsection* {\scshape\LARGE\uline {Technical Skills}}
 \begin{tabular}{r l}
-2014 - Present & \textbf{Software Developer}, \textit{Oracle India Pvt Ltd}, Bangalore, India \\
-		          & Oracle Virtual Networking\\ 
-			   & $\bullet$ Involved in developing of Infiniband Switches\\
-			   & $\bullet$ Involved in buiding device drivers and system softwares for  Solaris OS\\
-			   & $\bullet$ Experience of coding in the SPARC environment	    
-\\ \\
-
-2013 - 2014 & \textbf{Software Developer Intern}, \textit{Streamoid Technologies}, Bangalore, India \\ 
-			& $\bullet$ Worked on Natural Language Processing tools \\
-			& $\bullet$ Designed and developed a search engine using Apache Solr \\
-   			& $\bullet$ Implemented and analysed product recommendation systems \\
-			& $\bullet$ Built a performance and load testing system using Apache JMeter
-\\ \\
-
-2012 - 2013 & \textbf{Software Developer Intern}, \textit{Teritree Technologies}, Bangalore, India \\ 
-			& $\bullet$ Developed a database web application on the Amazon EC2 \\
-			& $\bullet$ Developed an email application using the Amazon SES\\
-			& $\bullet$ Built an extension for the Google Chrome web browser	    
+\emph{Programming} & C, C++, Java, Python \\
+\emph{Web}              & HTML, PHP, Javascript \\
+\emph{Database}	  & MySQL, MongoDB \\
+\emph{Operating Systems} & Solaris, Linux, Windows
 \end{tabular}
+
+\subsection* {\scshape\LARGE\uline {Publications}}
+\begin{tabularx}{\textwidth}{r X}
+\emph{Feb 2015} & Lata B T, \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik: \emph {SALB: Secure Adaptive Load 		         Balancing in Service Oriented Wireless Sensor Networks}  IEEE Signal Processing, Informatics, Communication and Energy Systems Conference Proceedings \\
+\emph{Nov 2014} & Lata B T, \textbf{Sumukha T V}, Suhas H, Raghavendra M, Shaila K, Venugopal K R, L M Patnaik, "DSWSD: Double Sliding Window for Secure Data Transmission in WSNs", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC) \\
+\emph{Nov 2014} & Lata B T, Raghavendra M,  \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik, "DRFSD: Directed Restricted Flooding for Secure Data-aggregation in Wireless Sensor Networks", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC)
+\end{tabularx}
 
 \end{document}
