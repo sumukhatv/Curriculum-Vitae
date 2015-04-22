@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.3.17)  15 JAN 2015 16:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.3.17)  22 APR 2015 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,14 +356,14 @@ LaTeX Font Info:    ... okay on input line 21.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(72.26999pt, 474.64911pt, 50.58878pt)
-* v-part:(T,H,B)=(57.81621pt, 729.41443pt, 57.81621pt)
+* v-part:(T,H,B)=(43.36243pt, 758.32199pt, 43.36243pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=474.64911pt
-* \textheight=729.41443pt
+* \textheight=758.32199pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-51.45378pt
+* \topmargin=-65.90756pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -418,7 +418,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2013/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb>
-Output written on Sumukha_TV_CV.pdf (2 pages, 95865 bytes).
+Output written on Sumukha_TV_CV.pdf (2 pages, 95912 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
