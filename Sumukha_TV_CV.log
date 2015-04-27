@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/W32TeX) (format=xelatex 2014.3.17)  27 APR 2015 22:28
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/W32TeX) (format=xelatex 2014.3.17)  27 APR 2015 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -766,14 +766,14 @@ LaTeX Font Info:    ... okay on input line 21.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(72.26999pt, 474.64911pt, 50.58878pt)
-* v-part:(T,H,B)=(28.90755pt, 787.23175pt, 28.90755pt)
+* v-part:(T,H,B)=(50.58878pt, 743.8693pt, 50.58878pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=474.64911pt
-* \textheight=787.23175pt
+* \textheight=743.8693pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-80.36244pt
+* \topmargin=-58.68121pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -884,14 +884,14 @@ m/n/12 and \EU1/TeXGyrePagella(0)/bx/n/12 Gold Medal \EU1/TeXGyrePagella(0)/m/n
 
 [1
 
-] [2] (./Sumukha_TV_CV.aux) ) 
+] [2] [3] (./Sumukha_TV_CV.aux) ) 
 Here is how much of TeX's memory you used:
  15056 strings out of 493938
  323334 string characters out of 6151977
- 338050 words of memory out of 5000000
+ 338048 words of memory out of 5000000
  18201 multiletter control sequences out of 15000+600000
  6666 words of font info for 47 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  46i,14n,45p,592b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Sumukha_TV_CV.pdf (2 pages).
+Output written on Sumukha_TV_CV.pdf (3 pages).
