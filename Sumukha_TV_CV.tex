@@ -1,11 +1,12 @@
 \documentclass[14pt]{article}
 %\usepackage[margin = 0.8in]{geometry}
-\usepackage[a4paper, left=1in, right=0.7in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage[a4paper, left=1in, right=0.7in, top=0.9in, bottom=0.4in]{geometry}
 %\usepackage{fontspec} must use Xelatex compiler
 %\usepackage[osf]{mathpazo}
 %\usepackage{fancyheadings}
 \usepackage[normalem]{ulem}
 \usepackage{enumerate}
+\usepackage{enumitem}
 \usepackage{verbatim}
 %\setmainfont[Numbers=OldStyle]{TeX Gyre Pagella} must use Xelatex compiler
 \usepackage{tabularx}
@@ -16,7 +17,6 @@
 \evensidemargin 0.0in 
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-
 
 \begin{document}
 %\renewcommand{\headrulewidth}{0pt}
@@ -45,45 +45,58 @@ E-mail: sumukhatv@live.com
 \subsection* {\scshape\LARGE\uline {Education}}
 \large
 
-\begin{tabular}{r l}
+\begin{tabularx}{\textwidth}{r X}
 \emph{2010 - 2014} & \textbf{Bachelor of Engineering} \\
-		                  & Major: Computer Science and Engineering\\ 
-			            & Bangalore University, India \\
-			            & Graduated with 83.8\% [GPA: 3.67/4.0]			    
-\\ \\
+		                  & \begin{itemize}[noitemsep,topsep=0pt]
+						\item[] Major: Computer Science and Engineering
+			                \item[] University Visvesvaraya College of Engineering, Bangalore University, India 
+			                \item[] Graduated with 83.8\% [GPA: 3.67/4.0]			    
+					     \end{itemize}
+\\
 
 \emph{2008 - 2010} & \textbf{Pre-University Course} \\ 
-		                  & MES Pre-University College, Bangalore, India \\
-			            & 2$^{nd}$PUC 93\%		    
-\\ \\
+		                  & \begin{itemize}[noitemsep,topsep=0pt]
+						\item[] Physics, Chemistry and Mathematics
+						\item[] MES Pre-University College, Bangalore, India 
+			                \item[] 2$^{nd}$PUC 93\%
+						\end{itemize}		    
+\\
 
 \emph{2005 - 2008} & \textbf{High School} \\ 
-			            & VVS Sardar Patel High School, Bangalore, India \\
-				      & SSLC 95.36\%		    
-\end{tabular}
+			           & \begin{itemize}[noitemsep,topsep=0pt]
+					   \item[] VVS Sardar Patel High School, Bangalore, India 
+				        \item[] SSLC 95.36\%
+					   \end{itemize}		    
+\end{tabularx}
 
 
 \subsection* {\scshape\LARGE\uline {Professional Experience}}
 \large
 \begin{tabularx}{\textwidth}{r X}
 \emph{2014 - Present} & \textbf{Software Developer}, \textit{Oracle India Pvt Ltd}, Bangalore, India \\
-		                      & Oracle Virtual Networking\\ 
-			                & $\bullet$ Involved in the development of Infiniband products\\
-			                & $\bullet$ Involved in building device drivers and system softwares for  Solaris OS\\
-			                & $\bullet$ Experience of coding on the SPARC machines	    
-\\ \\
+		                      & \emph{Oracle Virtual Networking}\\ 
+						& \begin{itemize}[noitemsep,topsep=0pt]
+			                   \item Involved in the development of device drivers for Infiniband channel adapters
+			                   \item Developed a Performance Analyser to profile the IO performance of IB HCAs
+			                   \item Developed a Command Line Interface tool for Solaris to interact with IB HCAs
+						   \end{itemize}	    
+\\ 
 
 \emph{2013 - 2014} & \textbf{Software Developer Intern}, \textit{Streamoid Technologies}, Bangalore, India \\ 
-			            & $\bullet$ Worked on Natural Language Processing tools \\
-		 	            & $\bullet$ Designed and developed a search engine using Apache Solr \\
-   			            & $\bullet$ Implemented and analysed product recommendation systems \\
-			            & $\bullet$ Built a performance and load testing system using Apache JMeter
-\\ \\
+			            & \begin{itemize}[noitemsep,topsep=0pt]
+						\item Worked on Natural Language Processing tools 
+		 	            	\item Designed and developed a search engine using Apache Solr 
+   			           	\item Implemented and analysed product recommendation systems 
+			           	\item Built a performance and load testing system using Apache JMeter
+					      \end{itemize}
+\\ 
 
 \emph{2012 - 2013} & \textbf{Software Developer Intern}, \textit{Teritree Technologies}, Bangalore, India \\ 
-			            & $\bullet$ Developed a database web application on the Amazon EC2 \\
-			            & $\bullet$ Developed an email application using the Amazon SES\\
-			            & $\bullet$ Built an extension for the Google Chrome web browser	    
+			            & \begin{itemize}[noitemsep,topsep=0pt]
+						\item Developed a database web application on the Amazon EC2 
+			            	\item Developed an email application using the Amazon SES
+			            	\item Built an extension for the Google Chrome web browser	    
+						\end{itemize}
 \end{tabularx}
 
 \subsection* {\scshape\LARGE\uline {Technical Skills}}
@@ -93,7 +106,7 @@ E-mail: sumukhatv@live.com
 \emph{Database}	  & MySQL, MongoDB \\
 \emph{Operating Systems} & Solaris, Linux, Windows
 \end{tabular}
-
+\\
 \subsection* {\scshape\LARGE\uline {Awards and Honors}}
 \begin{tabularx}{\textwidth}{r X}
 \emph{Feb 2015} & Winner of Cisco Hackathon 2015.\\ \\
@@ -101,6 +114,31 @@ E-mail: sumukhatv@live.com
 \emph{June 2014} & \textbf{Best Under Graduate project} for ``\emph{Adaptive Load Balancing Protocol for Service Oriented Wireless Sensor Networks}" \\ \\
 \emph{Dec 2013} & Winner of SAP Lumira University Challenge 2013. \\ \\
 \emph{Jan 2013} & Held the \textbf{Collaboration Platform Lead} position in the Student Activities Committee for the year 2013-2014 in the IEEE Bangalore Section. 
+\end{tabularx}
+\\
+\subsection* {\scshape\LARGE\uline {Projects}}
+\begin{tabularx}{\textwidth}{r X}
+\emph{Computer} & \textbf{Adaptive Load Balancing Protocol for Service Oriented Wireless} \\
+\emph{Networks} & \textbf{Sensor Networks} \\
+                             & \begin{itemize}[noitemsep,topsep=0pt]
+						\item  An efficient load balancing protocol for routing data in a WSN. 
+                             	\item Introduced a technique to deduce and evaluate a set of link disjoint paths from all available paths. 
+				   		\item Congestion detection and control by adaptive load ditribution over multipath. 
+						\end{itemize}
+\\
+\emph{Computer} & \textbf{SSexecutor, A multi-platform project testing tool} \\
+\emph{Networks} & \begin{itemize}[noitemsep,topsep=0pt] 
+					  \item A remote machine program execution system meant to facilitate code testing on multiple machines. 
+                             \item Copies a project from local machine to a remote machine and executes it. 
+				   	  \item Brings back the console output from the remote machine to the local machine. 
+					  \end{itemize}
+\\
+\emph{System} & \textbf{SSASM, A Complete SIC Machine Assembler} \\
+\emph{Software} & \begin{itemize}[noitemsep,topsep=0pt]
+					  \item Implementation of a Simple Instruction Set machine compatible assembler. 
+					  \item Includes a technique to detect errors in the source code. 
+					  \item Produces an object file which is ready for loading. 
+					  \end{itemize}
 \end{tabularx}
 
 \subsection* {\scshape\LARGE\uline {Publications}}
@@ -110,22 +148,5 @@ E-mail: sumukhatv@live.com
 \emph{Nov 2014} & Lata B T, Raghavendra M,  \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik, `` \textbf{\textit{DRFSD: Directed Restricted Flooding for Secure Data-aggregation in Wireless Sensor Networks}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC)
 \end{tabularx}
 
-\subsection* {\scshape\LARGE\uline {Projects}}
-\begin{tabularx}{\textwidth}{r X}
-\emph{Computer} & \textbf{Adaptive Load Balancing Protocol for Service Oriented Wireless} \\
-\emph{Networks} & \textbf{Sensor Networks} \\
-                             & $\bullet$  An efficient load balancing protocol for routing data in a WSN. \\
-                             & $\bullet$ Introduced a technique to deduce and evaluate a set of link disjoint paths from all available paths. \\
-				   & $\bullet$ Congestion detection and control by adaptive load ditribution over multipath. \\
-\\
-\emph{Computer} & \textbf{SSexecutor, A multi-platform project testing tool} \\
-\emph{Networks} & $\bullet$ A remote machine program execution system meant to facilitate code testing on multiple machines. \\
-                             & $\bullet$ Copies a project from local machine to a remote machine and executes it. \\
-				   & $\bullet$ Brings back the console output from the remote machine to the local machine. \\
-\\
-\emph{System} & \textbf{SSASM, A Complete SIC Machine Assembler} \\
-\emph{Software} & $\bullet$ Implementation of a Simple Instruction Set machine compatible assembler. \\
-				& $\bullet$ Includes a technique to detect errors in the source code. \\
-				& $\bullet$ Produces an object file which is ready for loading. 
-\end{tabularx}
+
 \end{document}
