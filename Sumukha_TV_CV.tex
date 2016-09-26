@@ -1,6 +1,6 @@
 \documentclass[14pt]{article}
-%\usepackage[margin = 0.8in]{geometry}
-\usepackage[a4paper, left=1in, right=0.7in, top=0.8in, bottom=0.5in]{geometry}
+%\usepackage[margin = 0.5in]{geometry}
+\usepackage[a4paper, left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
 %\usepackage{fontspec} must use Xelatex compiler
 %\usepackage[osf]{mathpazo}
 %\usepackage{fancyheadings}
@@ -13,10 +13,11 @@
 %\usepackage[document]{ragged2e}
 %\pagestyle{fancy}
 \pagenumbering{arabic}
-\oddsidemargin 0.0in 
-\evensidemargin 0.0in 
+%\oddsidemargin 0.0in 
+%\evensidemargin 0.0in 
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\setlist{nosep,after=\vspace{\baselineskip}}
 
 \begin{document}
 %\renewcommand{\headrulewidth}{0pt}
@@ -26,128 +27,75 @@
 %\rfoot{\thepage}
 \title{Curriculum Vitae}
 
-\begin{tabularx}{\textwidth}{l r}
-\Huge{\textbf{Sumukha Tumkur Vani}} & 
-\large
-\begin{tabular}{r}
-371, 10$^{th}$ cross\\
-Mahalakshmi Layout\\
-Bangalore 560086\\
-India\\
-Phone: +91 80 2349 8309\\
-Mobile: +91 95 91 636530\\
-E-mail: sumukhatv@live.com
-\end{tabular}
-\end{tabularx}
-\rule{\textwidth}{0pt}
-\rule{\textwidth}{0.4pt}
 
-\subsection* {\scshape\LARGE\uline {Education}}
-\large
+\centerline{\huge{\textbf{Sumukha Tumkur Vani}}}
 
+\centerline{\small{\texttt{22 Preston Street, Providence RI USA 02906 $|$ sumukha\_tumkur\_vani@brown.edu $|$ +1(401)660-8457}}}
+%\rule{\textwidth}{0pt}
+\begin{center}
+\rule{\textwidth}{0.2pt}
+\end{center}
+
+\subsection* {\scshape\large\uline {Education}}
 \begin{tabularx}{\textwidth}{r X}
-\emph{2010 - 2014} & \textbf{Bachelor of Engineering} \\
-		                  & \begin{itemize}[noitemsep,topsep=0pt]
-						\item[] Major: Computer Science and Engineering
-			                \item[] University Visvesvaraya College of Engineering, Bangalore University, India 
-			                \item[] Graduated with 83.8\% [GPA: 3.67/4.0]			    
-					     \end{itemize}
+\emph{2016 - 2018} & \textbf{Master of Science, Computer Science} \\
+		   & Brown University, USA\\
 \\
-
-\emph{2008 - 2010} & \textbf{Pre-University Course} \\ 
-		                  & \begin{itemize}[noitemsep,topsep=0pt]
-						\item[] Physics, Chemistry and Mathematics
-						\item[] MES Pre-University College, Bangalore, India 
-			                \item[] 2$^{nd}$PUC 93\%
-						\end{itemize}		    
-\\
-
-\emph{2005 - 2008} & \textbf{High School} \\ 
-			           & \begin{itemize}[noitemsep,topsep=0pt]
-					   \item[] VVS Sardar Patel High School, Bangalore, India 
-				        \item[] SSLC 95.36\%
-					   \end{itemize}		    
+\emph{2010 - 2014} & \textbf{Bachelor of Engineering, Computer Science and Engineering} \\
+		   & University Visvesvaraya College of Engineering, India\\
 \end{tabularx}
 
 
-\subsection* {\scshape\LARGE\uline {Professional Experience}}
-\large
+\subsection* {\scshape\large\uline {Professional Experience}}
+
 \begin{tabularx}{\textwidth}{r X}
 \emph{Jul - Aug} & \textbf{Software Developer}, \textit{Oracle India Pvt Ltd}, Bangalore, India \\
 \emph{2014  \enskip 2016}                & \emph{Oracle Virtual Networking}\\ 
-						& \begin{itemize}[noitemsep,topsep=0pt]
-			                   \item Involved in the development of device drivers for Infiniband channel adapters
-			                   \item Developed a Performance Analyser to profile the IO performance of IB HCAs
-			                   \item Developed a Command Line Interface tool for Solaris to interact with IB HCAs
-						   \end{itemize}	    
-\\ 
-
+			                 & - Involved in the development of device drivers for Infiniband channel adapters\\
+			                 & - Developed a Performance Analyser to profile the IO performance of IB HCAs\\
+			                 & - Developed a Command Line Interface tool for Solaris to interact with IB HCAs
+\\\\
 \emph{Oct - Apr} & \textbf{Software Developer Intern}, \textit{Streamoid Technologies}, Bangalore, India \\ 
-\emph{2013 \enskip 2014}            & \begin{itemize}[noitemsep,topsep=0pt]
-						\item Worked on Natural Language Processing tools 
-		 	            	\item Designed and developed a search engine using Apache Solr 
-   			           	\item Implemented and analysed product recommendation systems 
-			           	\item Built a performance and load testing system using Apache JMeter
-					      \end{itemize}
-\\ 
-
-\emph{Sep - May} & \textbf{Software Developer Intern}, \textit{Teritree Technologies}, Bangalore, India \\ 
-\emph{2012 \enskip 2013}            & \begin{itemize}[noitemsep,topsep=0pt]
-						\item Developed a database web application on the Amazon EC2 
-			            	\item Developed an email application using the Amazon SES
-			            	\item Built an extension for the Google Chrome web browser	    
-						\end{itemize}
+\emph{2013 \enskip 2014}            & - Worked on Natural Language Processing tools \\
+		 	            	& - Designed and developed a search engine using Apache Solr \\
+   			           	& - Implemented and analysed product recommendation systems \\
+			           	& - Built a performance and load testing system using Apache JMeter
 \end{tabularx}
 
-\subsection* {\scshape\LARGE\uline {Technical Skills}}
+\subsection* {\scshape\large\uline {Technical Skills}}
 \begin{tabular}{r l}
-\emph{Programming} & C, C++, Java, Python \\
-\emph{Web}              & HTML, PHP, Javascript \\
+\emph{Programming Languages} & C, Python, Java, C++, Javascript \\
 \emph{Database}	  & MySQL, MongoDB \\
 \emph{Operating Systems} & Solaris, Linux, Windows
 \end{tabular}
-\\
-\subsection* {\scshape\LARGE\uline {Awards and Honors}}
+
+\subsection* {\scshape\large\uline {Awards and Honors}}
 \begin{tabularx}{\textwidth}{r X}
-\emph{Jan 2016} &  \textbf{Best Hack} - The Under25 Summit Hackathon.\\ \\
-\emph{Feb 2015} & Winner of Cisco Hackathon 2015.\\ \\
-\emph{Nov 2014} & \textbf{Excellent Paper Award} and \textbf{Gold Medal} for the research paper  titled ``\emph{DSWSD: Double Sliding Window for Secure Data Transmission in WSNs}'', at the International Conference of Science, Technology, Engineering and Management, Singapore. \\ \\
-\emph{June 2014} & \textbf{Best Under Graduate project} for ``\emph{Adaptive Load Balancing Protocol for Service Oriented Wireless Sensor Networks}" \\ \\
-\emph{Dec 2013} & Winner of SAP Lumira University Challenge 2013. \\ \\
-\emph{Jan 2013} & Held the \textbf{Collaboration Platform Lead} position in the Student Activities Committee for the year 2013-2014 in the IEEE Bangalore Section. 
-\end{tabularx}
-\\
-\subsection* {\scshape\LARGE\uline {Projects}}
-\begin{tabularx}{\textwidth}{r X}
-\emph{Computer} & \textbf{Adaptive Load Balancing Protocol for Service Oriented Wireless} \\
-\emph{Networks} & \textbf{Sensor Networks} \\
-                             & \begin{itemize}[noitemsep,topsep=0pt]
-						\item  An efficient load balancing protocol for routing data in a WSN. 
-                             	\item Introduced a technique to deduce and evaluate a set of link disjoint paths from all available paths. 
-				   		\item Congestion detection and control by adaptive load distribution over multipath. 
-						\end{itemize}
-\\
-\emph{Computer} & \textbf{SSexecutor, A multi-platform project testing tool} \\
-\emph{Networks} & \begin{itemize}[noitemsep,topsep=0pt] 
-					  \item A remote machine program execution system meant to facilitate code testing on multiple machines. 
-                             \item Copies a project from local machine to a remote machine and executes it. 
-				   	  \item Brings back the console output from the remote machine to the local machine. 
-					  \end{itemize}
-\\
-\emph{System} & \textbf{SSASM, A Complete SIC Machine Assembler} \\
-\emph{Software} & \begin{itemize}[noitemsep,topsep=0pt]
-					  \item Implementation of a Simple Instruction Set machine compatible assembler. 
-					  \item Includes a technique to detect errors in the source code. 
-					  \item Produces an object file which is ready for loading. 
-					  \end{itemize}
+\emph{Jan 2016} &  \textbf{Best Hack} - The Under25 Summit Hackathon.\\ 
+\emph{Feb 2015} & Winner of Cisco Hackathon 2015.\\ 
+\emph{June 2014} & \textbf{Best Under Graduate project} for ``\emph{Adaptive Load Balancing Protocol for Service Oriented Wireless Sensor Networks}" \\ 
+\emph{Dec 2013} & Winner of SAP Lumira University Challenge 2013. \\ 
 \end{tabularx}
 
-\subsection* {\scshape\LARGE\uline {Publications}}
+\subsection* {\scshape\large\uline {Publications}}
 \begin{tabularx}{\textwidth}{r X}
-\emph{Feb 2015} & Lata B T, \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik ``\textbf{\textit{SALB: Secure Adaptive Load 		         Balancing in Service Oriented Wireless Sensor Networks}}",  IEEE Signal Processing, Informatics, Communication and Energy Systems Conference Proceedings \\ \\
-\emph{Nov 2014} & Lata B T, \textbf{Sumukha T V}, Suhas H, Raghavendra M, Shaila K, Venugopal K R, L M Patnaik, ``\textbf{\textit{DSWSD: Double Sliding Window for Secure Data Transmission in WSNs}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC) \\ \\
+\emph{Feb 2015} & Lata B T, \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik ``\textbf{\textit{SALB: Secure Adaptive Load 		         Balancing in Service Oriented Wireless Sensor Networks}}",  IEEE Signal Processing, Informatics, Communication and Energy Systems Conference Proceedings \\ 
+\emph{Nov 2014} & Lata B T, \textbf{Sumukha T V}, Suhas H, Raghavendra M, Shaila K, Venugopal K R, L M Patnaik, ``\textbf{\textit{DSWSD: Double Sliding Window for Secure Data Transmission in WSNs}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC). Secured \textbf{Gold Medal} and \textbf{Excellent Paper Award} \\ 
 \emph{Nov 2014} & Lata B T, Raghavendra M,  \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik, `` \textbf{\textit{DRFSD: Directed Restricted Flooding for Secure Data-aggregation in Wireless Sensor Networks}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC)
 \end{tabularx}
 
+\subsection* {\scshape\large\uline {Projects}}
+\begin{tabularx}{\textwidth}{r X}
+\emph{Computer} & \textbf{Adaptive Load Balancing Protocol for Service Oriented Wireless} \\
+\emph{Networks} & \textbf{Sensor Networks} \\
+                             & - An efficient load balancing protocol for routing data in a WSN.\\
+                             & - Introduced a technique to deduce and evaluate a set of link disjoint paths from all available paths.\\
+                             & - Congestion detection and control by adaptive load distribution over multipath.
+\\
+\emph{Computer} & \textbf{SSexecutor, A multi-platform project testing tool} \\
+\emph{Networks} & - A remote machine program execution system meant to facilitate code testing on multiple machines.\\
+                & - Copies a project from local machine to a remote machine and executes it.\\
+                & - Brings back the console output from the remote machine to the local machine.\\
+\end{tabularx}
 
 \end{document}
