@@ -1,6 +1,6 @@
 \documentclass[14pt]{article}
 %\usepackage[margin = 0.5in]{geometry}
-\usepackage[a4paper, left=0.5in, right=0.5in, top=0.4in, bottom=0.4in]{geometry}
+\usepackage[a4paper, left=0.5in, right=0.5in, top=0.6in, bottom=0.4in]{geometry}
 %\usepackage{fontspec} must use Xelatex compiler
 %\usepackage[osf]{mathpazo}
 %\usepackage{fancyheadings}
@@ -17,6 +17,13 @@
 %\evensidemargin 0.0in 
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 \setlist{nosep,after=\vspace{\baselineskip}}
 \pagestyle{empty}
 
@@ -44,28 +51,29 @@
 
 \subsection* {\scshape\large\uline {Education}}
 \begin{tabularx}{\textwidth}{r X}
-\emph{2016 - 2018} & \textbf{Master of Science, Computer Science} \\
-		   & Brown University, USA\\
+\emph{Aug - Dec} & \textbf{Master of Science, Computer Science} \\
+\emph{2016  \enskip 2017} & Brown University, USA\\
+			  & Courses: Computer Networks, Algorithms, Computational Linguistics, Advanced topics in Networking and Distributed Systems \\
 \\
-\emph{2010 - 2014} & \textbf{Bachelor of Engineering, Computer Science and Engineering} \\
-		   & University Visvesvaraya College of Engineering, India\\
+\emph{Sep - Jun} & \textbf{Bachelor of Engineering, Computer Science and Engineering} \\
+\emph{2010  \enskip 2014} & University Visvesvaraya College of Engineering, India\\
 \end{tabularx}
 
 
 \subsection* {\scshape\large\uline {Professional Experience}}
 
 \begin{tabularx}{\textwidth}{r X}
+\emph{Dec} & \textbf{Research Assistant}, \textit{Brown CS}, Providence, RI, USA \\
+\emph{2016}                & \emph{BrownSys: Systems Research Group @ Brown CS}\\
+                                         & - Involved in the \href{http://binnig.name/?page_id=33}{I-STORE project} under the guidance of \href{http://cs.brown.edu/~rfonseca/}{Prof Rodrigo Fonseca} and \href{http://binnig.name}{Prof Carsten Binnig}\\
+					 & - Optimizing distributed database design to harness the capabilities of RDMA \\
+                                         & - Exploring ways to speed up distributed ordered indices using RDMA over Infiniband \\
+\\\\
 \emph{Jul - Aug} & \textbf{Software Developer}, \textit{Oracle India Pvt Ltd}, Bangalore, India \\
 \emph{2014  \enskip 2016}                & \emph{Oracle Virtual Networking}\\ 
-			                 & - Involved in the development of device drivers for Infiniband channel adapters\\
+			                 & - Involved in the development of device drivers for Infiniband (IB) host channel adapters (HCA)\\
 			                 & - Developed a Performance Analyser to profile the IO performance of IB HCAs\\
 			                 & - Developed a Command Line Interface tool for Solaris to interact with IB HCAs
-\\\\
-\emph{Oct - Apr} & \textbf{Software Developer Intern}, \textit{Streamoid Technologies}, Bangalore, India \\ 
-\emph{2013 \enskip 2014}            & - Worked on Natural Language Processing tools \\
-		 	            	& - Designed and developed a search engine using Apache Solr \\
-   			           	& - Implemented and analysed product recommendation systems \\
-			           	& - Built a performance and load testing system using Apache JMeter
 \end{tabularx}
 
 \subsection* {\scshape\large\uline {Technical Skills}}
@@ -75,6 +83,7 @@
 \emph{OS} & Solaris, Linux, Windows
 \end{tabular}
 
+\iffalse
 \subsection* {\scshape\large\uline {Awards and Honors}}
 \begin{tabularx}{\textwidth}{r X}
 \emph{Jan 2016} &  \textbf{Best Hack} - The Under25 Summit Hackathon.\\ 
@@ -82,26 +91,27 @@
 \emph{June 2014} & \textbf{Best Under Graduate project} for ``\emph{Adaptive Load Balancing Protocol for Service Oriented Wireless Sensor Networks}" \\ 
 \emph{Dec 2013} & Winner of \textbf{SAP Lumira University Challenge} 2013. \\ 
 \end{tabularx}
-
-\subsection* {\scshape\large\uline {Publications}}
-\begin{tabularx}{\textwidth}{r X}
-\emph{Feb 2015} & Lata B T, \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik ``\textbf{\textit{SALB: Secure Adaptive Load 		         Balancing in Service Oriented Wireless Sensor Networks}}",  IEEE Signal Processing, Informatics, Communication and Energy Systems Conference Proceedings \\ 
-\emph{Nov 2014} & Lata B T, \textbf{Sumukha T V}, Suhas H, Raghavendra M, Shaila K, Venugopal K R, L M Patnaik, ``\textbf{\textit{DSWSD: Double Sliding Window for Secure Data Transmission in WSNs}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC). Secured \textbf{Gold Medal} and \textbf{Excellent Paper Award} \\ 
-\emph{Nov 2014} & Lata B T, Raghavendra M,  \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik, `` \textbf{\textit{DRFSD: Directed Restricted Flooding for Secure Data-aggregation in Wireless Sensor Networks}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC)
-\end{tabularx}
+\fi
 
 \subsection* {\scshape\large\uline {Projects}}
 \begin{tabularx}{\textwidth}{r X}
+\emph{Computer} & \textbf{TCP over IP} \\
+\emph{Networks} &  - Implementation of RFC compliant TCP over IP\\
+                             & - Exposes Transport Layer socket APIs which can be used by applications\\
+                             & - Developed using Rust programming language \\
+
 \emph{Computer} & \textbf{Internet Protocol over UDP} \\
 \emph{Networks} & - A virtual IP Network with UDP as the link layer\\
                              & - Uses Routing Information Protocol for routing decisions\\
                              & - Developed using Rust programming language\\
-
-\emph{Computer} & \textbf{TCP over IP} \\
-\emph{Networks} &  - Implementation of RFC compliant TCP over IP\\
-                             & - Exposes Transport Layer socket APIs which can be used by applications\\
-                             & - Developed using Rust programming language
 \\
+\end{tabularx}
+
+\subsection* {\scshape\large\uline {Publications}}
+\begin{tabularx}{\textwidth}{r X}
+\emph{Feb 2015} & Lata B T, \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik ``\textbf{\textit{\href{http://ieeexplore.ieee.org/document/7091379/}{SALB: Secure Adaptive Load Balancing in Service Oriented Wireless Sensor Networks}}}",  IEEE Signal Processing, Informatics, Communication and Energy Systems Conference Proceedings \\ 
+\emph{Nov 2014} & Lata B T, \textbf{Sumukha T V}, Suhas H, Raghavendra M, Shaila K, Venugopal K R, L M Patnaik, ``\textbf{\textit{\href{http://www.worldresearchlibrary.org/up_proc/pdf/2-141905888216-21.pdf}{DSWSD: Double Sliding Window for Secure Data Transmission in WSNs}}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC). Secured \textbf{Gold Medal} and \textbf{Excellent Paper Award} \\ 
+\emph{Nov 2014} & Lata B T, Raghavendra M,  \textbf{Sumukha T V}, Suhas H, Tejaswi V, Shaila K, Venugopal K R, L M Patnaik, `` \textbf{\textit{\href{http://www.worldresearchlibrary.org/up_proc/pdf/2-141906057250-55.pdf}{DRFSD: Directed Restricted Flooding for Secure Data-aggregation in Wireless Sensor Networks}}}", International Journal of Computer Networking, Wireless and Mobile Communications (IJCNWMC)
 \end{tabularx}
 
 \end{document}
