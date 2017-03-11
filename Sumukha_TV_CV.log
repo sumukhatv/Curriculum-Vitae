@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2017 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 MAR 2017 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -656,29 +656,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 52.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 
 (./Sumukha_TV_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `Sumukha_TV_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 6447 strings out of 493014
- 93148 string characters out of 6133351
+ 6448 strings out of 493014
+ 93166 string characters out of 6133351
  200832 words of memory out of 5000000
- 9934 multiletter control sequences out of 15000+600000
- 7960 words of font info for 29 fonts, out of 8000000 for 9000
+ 9935 multiletter control sequences out of 15000+600000
+ 8267 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,8n,23p,456b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -688,7 +688,7 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Sumukha_TV_CV.pdf (1 page, 105479 bytes).
+Output written on Sumukha_TV_CV.pdf (1 page, 105475 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
